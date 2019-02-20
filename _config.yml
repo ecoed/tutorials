@@ -6,7 +6,7 @@ baseurl: "/tutorials/" # the subpath of your site, e.g. /blog
 url: "https://ecoed.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #remote_theme: ecoed/just-the-docs
-remote_theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 markdown: kramdown
 
 # Enable or disable the site search
