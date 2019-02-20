@@ -1,0 +1,37 @@
+# This file contains Jekyll configuration for the ecoEd Tutorials site.
+#
+title: ecoEd tutorials
+description: Online tutorials for ecoEd Modules
+baseurl: "/tutorials/" # the subpath of your site, e.g. /blog
+url: "https://ecoed.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+remote_theme: pmarsceill/just-the-docs
+#theme: just-the-docs
+markdown: kramdown
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "ecoEd on GitHub":
+  # - "//github.com/pmarsceill/just-the-docs"
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
