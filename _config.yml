@@ -1,6 +1,6 @@
 # This file contains Jekyll configuration for the ecoEd Tutorials site.
 #
-title: ecoEd tutorials
+title: ecoEd Tutorials
 description: Online tutorials for ecoEd Modules
 baseurl: "/tutorials/" # the subpath of your site, e.g. /blog
 url: "https://ecoed.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -15,7 +15,7 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "ecoEd on GitHub":
-  # - "//github.com/pmarsceill/just-the-docs"
+   - "//github.com/ecoed/tutorials"
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
