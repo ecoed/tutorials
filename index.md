@@ -14,4 +14,4 @@ More info: [www.ecoed.org.au](https://www.ecoed.org.au)
 
 This website provides online walk-through tutorials for each of the _ecoEd_ modules. Lectures and teacher background information can be found through the download link on the [_ecoEd_ website](https://www.ecoed.org.au/materials).
 
-![](docs/images/ecoed-logo.png)
+![](modules/images/ecoed-logo.png)

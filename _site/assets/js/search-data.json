@@ -3,8 +3,8 @@
     "id": "0",
     "title": "10 Eco Data Things",
     "content": "10 Eco Data Things",
-    "url": "http://localhost:4000/tutorials/docs/10-eco-data-things/10-eco-data-things.html",
-    "relUrl": "/docs/10-eco-data-things/10-eco-data-things.html"
+    "url": "http://localhost:4000/tutorials/modules/10-Eco-Data-Things/10-Eco-Data-Things.html",
+    "relUrl": "/modules/10-Eco-Data-Things/10-Eco-Data-Things.html"
   },
   "1": {
     "id": "1",
@@ -15,31 +15,31 @@
   },
   "2": {
     "id": "2",
-    "title": "SDM and Climate Change",
-    "content": "Species Distribution Models &amp; Climate Change projections In the Biodiversity and Climate Change Virtual Laboratory (BCCVL) Introduction Species Distribution Models (SDM) can be used to understand the potential distribution of a species or the environmental suitability of locations based on a set of environmental conditions. This module addresses the fundamental aspects of species distribution models (SDM), the type of data needed for these models, different types of algorithms and evaluation of models as well as an understanding of Climate Change projections to investigate how species distributions might change in the future. Key Messages The design of a Species Distribution Model includes a few important aspects: species data (presence and absence), environmental data, and a modelling algorithm. It is important to understand which environmental factors influence your species when you design a Species Distribution Model. Depending on your research question, different evaluation statistics might be useful to evaluate the performance of your model. The two important components of a Climate Change Projection are the Representative Concentration Pathway (RCP) and the General Circulation Model (GCM). There are 4 RCPs, which represent four different climate change scenarios. Skills to be gained Designing a Species Distribution Model and Climate Change projection. Understanding differences in generating pseudo-absence records. Understanding differences in modelling algorithms. Being able to adequately evaluate model outputs. Understanding different climate change scenarios (RCP). Running a Species Distribution Model in the Biodiversity and Climate Change Virtual Laboratory In this workshop you will use a tool that is designed to effectively run Species Distribution Models under current conditions and then project these into the future under different climate change scenarios. This tool, the Biodiversity and Climate Change Virtual Laboratory (BCCVL), uses the national computational infrastructure of Australia, which means that it doesn’t use the computing capacity of your own computer or laptop. You design your experiment in a web-based environment after which the model will be run in the cloud, and you will be notified when the results are ready. One of the major advantages of using the BCCVL is that you don’t need to know any coding! All the experiments use R scripts in the background, but have a user-friendly point-and-click interface so you can focus on the science instead of how to write the script to run a model. Anyone with an Australian university account can use the BCCVL with his or her own university credentials. Other users can register and create a BCCVL account. Log in Open your web browser (please do not use Internet Explorer as this often gives issues with visualizing maps; Chrome, Firefox or Safari are all ok). Go to www.bccvl.org.au and click the Login button (top right corner). This will take you to log in page where you can either use your University credentials (left) or your BCCVL account (right) to log in. Once logged in you will be taken to the BCCVL welcome page.",
-    "url": "http://localhost:4000/tutorials/docs/SDM-Climate-Change.html",
-    "relUrl": "/docs/SDM-Climate-Change.html"
+    "title": "Biodiversity Data Quality",
+    "content": "This module uses the Atlas of Living Australia Spatial Portal.",
+    "url": "http://localhost:4000/tutorials/modules/Biodiversity-Data-Quality.html",
+    "relUrl": "/modules/Biodiversity-Data-Quality.html"
   },
   "3": {
     "id": "3",
-    "title": "Biodiversity Data Quality",
-    "content": "This module uses the Atlas of Living Australia Spatial Portal.",
-    "url": "http://localhost:4000/tutorials/docs/biodiversity-data-quality.html",
-    "relUrl": "/docs/biodiversity-data-quality.html"
+    "title": "SDM and Climate Change",
+    "content": "Species Distribution Models &amp; Climate Change projections In the Biodiversity and Climate Change Virtual Laboratory (BCCVL) Introduction Species Distribution Models (SDM) can be used to understand the potential distribution of a species or the environmental suitability of locations based on a set of environmental conditions. This module addresses the fundamental aspects of species distribution models (SDM), the type of data needed for these models, different types of algorithms and evaluation of models as well as an understanding of Climate Change projections to investigate how species distributions might change in the future. Key Messages The design of a Species Distribution Model includes a few important aspects: species data (presence and absence), environmental data, and a modelling algorithm. It is important to understand which environmental factors influence your species when you design a Species Distribution Model. Depending on your research question, different evaluation statistics might be useful to evaluate the performance of your model. The two important components of a Climate Change Projection are the Representative Concentration Pathway (RCP) and the General Circulation Model (GCM). There are 4 RCPs, which represent four different climate change scenarios. Skills to be gained Designing a Species Distribution Model and Climate Change projection. Understanding differences in generating pseudo-absence records. Understanding differences in modelling algorithms. Being able to adequately evaluate model outputs. Understanding different climate change scenarios (RCP). Running a Species Distribution Model in the Biodiversity and Climate Change Virtual Laboratory In this workshop you will use a tool that is designed to effectively run Species Distribution Models under current conditions and then project these into the future under different climate change scenarios. This tool, the Biodiversity and Climate Change Virtual Laboratory (BCCVL), uses the national computational infrastructure of Australia, which means that it doesn’t use the computing capacity of your own computer or laptop. You design your experiment in a web-based environment after which the model will be run in the cloud, and you will be notified when the results are ready. One of the major advantages of using the BCCVL is that you don’t need to know any coding! All the experiments use R scripts in the background, but have a user-friendly point-and-click interface so you can focus on the science instead of how to write the script to run a model. Anyone with an Australian university account can use the BCCVL with his or her own university credentials. Other users can register and create a BCCVL account. Log in Open your web browser (please do not use Internet Explorer as this often gives issues with visualizing maps; Chrome, Firefox or Safari are all ok). Go to www.bccvl.org.au and click the Login button (top right corner). This will take you to log in page where you can either use your University credentials (left) or your BCCVL account (right) to log in. Once logged in you will be taken to the BCCVL welcome page.",
+    "url": "http://localhost:4000/tutorials/modules/SDM-Climate-Change.html",
+    "relUrl": "/modules/SDM-Climate-Change.html"
   },
   "4": {
     "id": "4",
+    "title": "Thing 1",
+    "content": "Thing 1:",
+    "url": "http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-1.html",
+    "relUrl": "/modules/10-Eco-Data-Things/Thing-1.html"
+  },
+  "5": {
+    "id": "5",
     "title": "Home",
     "content": "ecoEd Tutorials ecoEd is an innovative training and skills development program for university lecturers, researchers and industry professionals. The program is developed to enhance the translation of Australia’s eResearch infrastructure to the EcoScience community by educating and upskilling the next generation of environmental scientists and managers. ecoEd provides access to information resources that can be used in courses that focus on topics such as ecology, biogeography, environmental management and spatial analysis. These resources explain the theoretical underpinnings of ecological models, and provide real-world examples to show how these concepts can be analysed in online tools. More info: www.ecoed.org.au This website provides online walk-through tutorials for each of the ecoEd modules. Lectures and teacher background information can be found through the download link on the ecoEd website.",
     "url": "http://localhost:4000/tutorials/",
     "relUrl": "/"
-  },
-  "5": {
-    "id": "5",
-    "title": "Thing 1",
-    "content": "Thing 1:",
-    "url": "http://localhost:4000/tutorials/docs/10-eco-data-things/thing-1.html",
-    "relUrl": "/docs/10-eco-data-things/thing-1.html"
   }
   
 }
