@@ -1,66 +1,271 @@
-<h2 id="thing-5-describing-data-metadata-and-controlled-vocabularies">Thing 5: Describing data: metadata and controlled vocabularies</h2>
-<p>Metadata are the lifeblood for finding and reusing research data. Data is only as valuable as the metadata which describes and connects it. In addition to selecting a metadata standard or schema, whenever possible you should also use a controlled vocabulary. A controlled vocabulary provides a consistent way to describe datasets.</p>
+<!DOCTYPE html>
 
-<h3 id="activity-1-metadata-describing-research-data">Activity 1: Metadata: describing research data</h3>
-<p>Metadata is your best data friend! Metadata is structured information about a resource that describes characteristics such as content, quality, format, location and contact information. Creating metadata to describe research data is very similar to the process for descriptive cataloguing of library resources.</p>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  
 
-<p>Metadata schema are sets of metadata elements (or fields) for describing a particular type of information resource. Numerous metadata schema exist for describing research data across different disciplines. The metadata standards most relevant to Ecoscience are EML, ISO 19115 and ISO 19139 (see Activity 2).</p>
+  <title>Thing 5 - Describing data - ecoEd Tutorials</title>
+  <link rel="stylesheet" href="http://localhost:4000/tutorials/assets/css/just-the-docs.css">
 
-<ol>
-  <li>Start by reading the ANDS Introduction to Metadata to understand what metadata is and why is it the lifeblood of research data sharing!</li>
-  <li>Now look closely at one of these good quality metadata records for research data:
-    <ul>
-      <li>Haberle et al. (2014) Weekly pollen count data for the University of Tasmania, Hobart. doi: 10.4227/05/5344E9A41A124</li>
-      <li>Van Dijk et al. (2017) OzWALD Gridded Environmental Data for Australia. doi: 10.4225/41/5934faf27397b
-Why do you think this record is considered ‘high quality’?
-Hint: consider both the type and quality of information provided. What metadata included in this record help discovery and reuse of the data? Look back at the ANDS Introduction to metadata for ideas and think about what we’ve looked at in previous Things.</li>
-    </ul>
-  </li>
-  <li>If you have time: Sadly, it’s not hard to find examples of low quality metadata describing research data. Read this short 2-page article Avoiding Data Dumpsters - Toward Equitable and Useful Data Sharing on the power of good quality, schema-compliant metadata (N Engl J Med 2016; 374:2414-2415 doi: 10.1056/NEJMp1605148).</li>
-</ol>
+  
 
-<p><strong>Consider:</strong> Why, if metadata is the lifeblood of data discoverability and reuse, is it often neglected or not richly done when data is published.</p>
+  
+    <script type="text/javascript" src="http://localhost:4000/tutorials/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="http://localhost:4000/tutorials/assets/js/just-the-docs.js"></script>
 
-<h3 id="activity-2-metadata-schema-and-standards">Activity 2: Metadata schema and standards</h3>
-<p>A metadata standard is a schema that has been formally approved and published, with governance procedures in place to maintain and update the standard. Examples include ANZLIC and DDI (Document, Discover and Interoperate).</p>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-<ol>
-  <li>Have a brief look at one of the following metadata standards relevant to ecological data:
-    <ul>
-      <li>Darwin Core standard</li>
-      <li>Ecological Metadata Language (EML)</li>
-      <li>ISO 19115 for geographic data</li>
-    </ul>
-  </li>
-</ol>
+<body>
 
-<p>Numerous metadata standards exist and the standard chosen to describe resources such as research data should be appropriate to the project or discipline.</p>
+  <div class="page-wrap">
+    <div class="side-bar">
+      <a href="http://localhost:4000/tutorials/" class="site-title fs-6 lh-tight">ecoEd Tutorials</a>
+      <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+      <div class="navigation main-nav js-main-nav">
+        <nav role="navigation" aria-label="Main navigation">
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/tutorials/404.html" class="navigation-list-link"></a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/tutorials/" class="navigation-list-link">Home</a>
+            
+          </li>
+        
+      
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/10-Eco-Data-Things.html" class="navigation-list-link">10 Eco Data Things</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-1.html" class="navigation-list-link">Thing 1 - Getting started with research data</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-2.html" class="navigation-list-link">Thing 2 - Issues in research data management</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-3.html" class="navigation-list-link">Thing 3 - What are publishers & funders saying about data?</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-4.html" class="navigation-list-link">Thing 4 - Data management plans</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item  active">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-5.html" class="navigation-list-link active">Thing 5 - Describing data</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-6.html" class="navigation-list-link">Thing 6 - Data sharing practices</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-7.html" class="navigation-list-link">Thing 7 - Data discovery and deposit</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-8.html" class="navigation-list-link">Thing 8 - DOIs, data citation and metrics</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-9.html" class="navigation-list-link">Thing 9 - Licensing data for reuse</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-10.html" class="navigation-list-link">Thing 10 - Spatial data</a>
+                      
+                    </li>
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/tutorials/modules/Biodiversity-Data-Quality.html" class="navigation-list-link">Biodiversity Data Quality</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/tutorials/modules/SDM-Climate-Change.html" class="navigation-list-link">SDM and Climate Change</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+  </ul>
+</nav>
 
-<ol>
-  <li>Start by reading this short guide to Evaluating and Selecting a metadata standard. Keep this Guide open.</li>
-  <li>Choose one disciplinary standard which sparks your interest from the UK Digital Curation Centre’s Directory of Disciplinary Metadata. Use the Guide to critique your chosen standard.</li>
-</ol>
+      </div>
+      <footer role="contentinfo" class="site-footer">
+        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+      </footer>
+    </div>
+    <div class="main-content-wrap js-main-content" tabindex="0">
+      <div class="page-header">
+        <div class="main-content">
+          
+          <div class="search js-search">
+            <div class="search-input-wrap">
+              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search ecoEd Tutorials" aria-label="Search ecoEd Tutorials" autocomplete="off">
+              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
+            </div>
+            <div class="js-search-results search-results-wrap"></div>
+          </div>
+          
+          
+            <ul class="list-style-none text-small mt-md-1 mb-md-1 pb-4 pb-md-0 js-aux-nav aux-nav">
+              
+                <li class="d-inline-block my-0"><a href="//github.com/ecoed/tutorials">ecoEd on GitHub</a></li>
+              
+            </ul>
+          
+        </div>
+      </div>
+      <div class="main-content">
+        
+          
+            <nav class="breadcrumb-nav">
+              <ol class="breadcrumb-nav-list">
+                
+                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/10-Eco-Data-Things.html">10 Eco Data Things</a></li>
+                
+                <li class="breadcrumb-nav-list-item"><span>Thing 5 - Describing data</span></li>
+              </ol>
+            </nav>
+          
+        
+        <div id="main-content" class="page-content" role="main">
+          <h2 id="thing-5-describing-data-metadata-and-controlled-vocabularies">Thing 5: Describing data: metadata and controlled vocabularies</h2>
 
-<p><strong>Consider:</strong> Describe the particular standard you evaluated and perhaps add other reasons to recommend (or not) that standard.</p>
 
-<h3 id="activity-3-control-your-language-please">Activity 3: Control your language, please!</h3>
-<p>In addition to selecting a metadata standard or schema, whenever possible you should also use a controlled vocabulary. A controlled vocabulary provides a consistent way to describe data - location, time, place name, subject. Read a short explanation of controlled vocabularies here.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
-<p>Controlled vocabularies significantly improve data discovery. It makes data more shareable with researchers in the same discipline because everyone is ‘talking the same language’ when searching for specific data e.g. plants, animals, medical conditions, places etc.</p>
-
-<p>Some examples of vocabularies used in ecology are:</p>
-<ol>
-  <li>Environmental Thesaurus (EnvThes)</li>
-  <li>Global Change Master Directory (GCMD) Keywords</li>
-  <li>Long Term Ecological Research (LTER) – and see it visually represented here</li>
-</ol>
-
-<p>We are going to see some controlled vocabularies in action in the Atlas of Living Australia (ALA).</p>
-
-<ol>
-  <li>Do a search in the ALA search engine. Type “whale” in the search box and click on search. Choose one of the records listed and click on the (red text) View record link.</li>
-  <li>Any metadata field where you see Supplied… tells you that the information supplied by the person who submitted the record (often a ‘citizen scientist’) has been changed to the controlled vocabulary being used in metadata fields e.g. Observer, Record date and Common name.</li>
-  <li>Have a scroll down the record and consider how many of the metadata fields probably have a controlled vocabulary in use (e.g. taxonomy, geospatial etc.).</li>
-</ol>
-
-<p><strong>Consider:</strong> How do you think we could encourage people to use controlled vocabularies in their data descriptions?</p>
+</body>
+</html>
