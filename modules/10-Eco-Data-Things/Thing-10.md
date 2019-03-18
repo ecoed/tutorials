@@ -38,4 +38,13 @@ Browse through this site for ideas for free, open source geospatial software; th
 2.	[Spatial data visualisation with R](https://www.r-bloggers.com/spatial-data-visualization-with-r-2/): for those who have done the R modules in Software Carpentry - this might be a good activity to flex your R muscles! Want [more](https://www.researchgate.net/publication/274697165_Spatial_Data_Visualisation_with_R)? Here are some more [R tutorials](http://pakillo.github.io/R-GIS-tutorial/).
 3.	Create a map using [Google Fusion Tables](https://support.google.com/fusiontables/answer/2527132?hl=en&ref_topic=2592806): this offers lots of features, but you need a Google account. The excellent Google Fusion tutorial uses butterfly data to show you how to import data, map the data and customise your map.
 
+The [Open Geospatial Consortium (OGC)](http://www.opengeospatial.org/) is an international not-for-profit organization that develops open standards for the geospatial community. OGC through their dedicated global members have developed several standards to share geospatial data. Some of the most commonly use standards are:
+- [Web Map Service](http://www.opengeospatial.org/standards/wms) (WMS): a standard web protocol to query and access geo-registered static map images as a web service. The outputs are images that can be displayed in a browser application.
+- [Web Feature Service](http://www.e-cartouche.ch/content_reg/cartouche/webservice/en/html/wfs_whatWFSis.html) (WFS): a standard web protocol to query and extract geographic features of a map, these are typically attributes of a map. The latest version of WFS (3.0, Dec 2017) has created [a lot of excitement in the community](https://medium.com/@cholmes/wfs-3-0-get-excited-yes-8e904fdbcc0).
+- [Web Coverage Service](http://www.opengeospatial.org/standards/wcs) (WCS): provides access to geospatial information representing phenomena that are variable over space and time, such as satellite images or aerial photos. The service delivers a raster image that can be further interpreted and processed.
+
+[Geoserver](http://geoserver.org/) is the most popular open source reference implementation of WMS, WFS and WCS standards.
+
+**Consider:** The data world is hungry for Geospatial tools and metadata and there is growing demand for people with these skills.  How can these skills be encouraged in your institution?
+
 ![](images/spatial-data.png)
