@@ -13,33 +13,33 @@ Repositories enable discovery of data by publishing data descriptions ("metadata
 
 1.	Many Australian Universities have a repository in which data can be deposited. Have a look to see if your University has one. Often the Library manages the repository, or has staff who can help you to deposit your data there.
 2.	Explore some of the repositories in which you can discover and deposit ecological data:
-a.	Atlas of Living Australia (ALA)
-b.	Terrestrial Ecosystem Research Network (TERN)
-c.	Biodiversity and Climate Change Virtual Laboratory (BCCVL) Data Portal
-d.	Global Biodiversity Information Facility (GBIF)
-e.	NatureServe Explorer
-f.	TERN - AEKOS (Australian ecological plot data)
-g.	Catalogue of Life
-h.	Encyclopedia of Life
-i.	Global Plant Trait database
-j.	Fishes of Australia
-k.	FishBase
-l.	Ocean Biogeographic Information System
-m.	ReefBase
-1.	Or search the Registry of Data Repositories:
-a.	 Click on Browse > By Country > click on Australia in the map
-b.	There are a surprising number of data repositories listed for Australia. Does this present all the research data repositories Australia has to offer: is anything missing?
+- [Atlas of Living Australia (ALA)](https://www.ala.org.au/)
+- [Terrestrial Ecosystem Research Network (TERN)](https://portal.tern.org.au/#/d9132bb4)
+- Biodiversity and Climate Change Virtual Laboratory (BCCVL) [Data Portal](http://www.bccvl.org.au/data-portal/)
+- [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/)
+- [NatureServe Explorer](http://explorer.natureserve.org/)
+- [TERN - AEKOS](http://www.aekos.org.au/index.html#/home) (Australian ecological plot data)
+- [Catalogue of Life](http://www.catalogueoflife.org/)
+- [Encyclopedia of Life](https://eol.org/)
+- [Global Plant Trait database](www.try-db.org)
+- [Fishes of Australia](http://fishesofaustralia.net.au/)
+- [FishBase](https://www.fishbase.in/search.php)
+- [Ocean Biogeographic Information System](www.iobis.org)
+- [ReefBase](http://www.reefbase.org/main.aspx)
+3. Search the [Registry of Data Repositories](https://www.re3data.org/):
+- Click on Browse > By Country > click on Australia in the map
+- There are a surprising number of data repositories listed for Australia. Does this present all the research data repositories Australia has to offer: is anything missing?
 
 **Consider:** Find a dataset relevant to your interests in one of the repositories listed.
 
 ### Activity 2: Australia’s national research data catalogue
-Data portals or aggregators draw together research data records from a number of repositories. e.g. Research Data Australia (RDA) aggregates records from over 100 Australian research repositories, including University repositories and national repositories like TERN. Data is not deposited into RDA, it harvests data descriptions ("metadata") from the other repositories, thus providing a discovery point for a wide range of data.
+Data portals or aggregators draw together research data records from a number of repositories. [Research Data Australia (RDA)](https://researchdata.ands.org.au/) aggregates records from over 100 Australian research repositories, including University repositories and national repositories like TERN. Data is not deposited into RDA, it harvests data descriptions ("metadata") from the other repositories, thus providing a discovery point for a wide range of data.
 
-1.	Click on this RDA record from the Long Term Ecological Research Network (LTERN): Three Parks Savanna Fire-effects Plot Network (Fauna): Terrestrial Vertebrate Monitoring, Kakadu National Park, Northern Territory, Australia, 2012–2014
+1.	Click on this RDA record from the Long Term Ecological Research Network (LTERN): [Three Parks Savanna Fire-effects Plot Network (Fauna)](https://researchdata.ands.org.au/parks-savanna-fire-australia-20122014/504600/?refer_q=anzsrc-for=05/rows=15/sort=list_title_sort%20asc/class=collection/p=9/group=Long%20Term%20Ecological%20Research%20Network/refine=bird/q=/): Terrestrial Vertebrate Monitoring, Kakadu National Park, Northern Territory, Australia, 2012–2014
 2.	Have a close look at the record. Click on ‘Go to Data Provider’ to see the record in the original repository.
 3.	Spend a few minutes exploring RDA:
 a.	Try browsing or searching on a topic of interest.
-b.	See which institutions contribute metadata records to RDA.
+b.	See [which institutions](https://researchdata.ands.org.au/contributors) contribute metadata records to RDA.
 c.	Explore a record or two in depth.
 
 **Consider:** What could be the future impact of having a national research data catalogue?
