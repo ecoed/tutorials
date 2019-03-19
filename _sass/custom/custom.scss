@@ -1,4 +1,21 @@
-$ecoed-dark-blue: #60a3bc;
-$ecoed-light-blue: #add2eb;
+$ecoed-blue-01: #60a3bc;
+$ecoed-blue-02: #add2eb;
+$ecoed-blue-03: #deedf7;
+$ecoed-grey-01: #595959;
+$ecoed-grey-02: #828282;
+$ecoed-grey-03: #d9d9d9;
+$red: #ff0000;
 
-$link-color: $ecoed-dark-blue;
+$body-background-color: $white !default;
+// $sidebar-color: $grey-lt-000 !default;
+$sidebar-color: $ecoed-blue-02;
+$code-background-color: $grey-lt-000 !default;
+// $body-text-color: $grey-dk-100 !default;
+$body-text-color: $ecoed-grey-01;
+// $body-heading-color: $grey-dk-300 !default;
+$body-heading-color: $ecoed-grey-01;
+// $nav-child-link-color: $grey-dk-100 !default;
+$nav-child-link-color: $ecoed-grey-02;
+$link-color: $ecoed-blue-01;
+$btn-primary-color: $ecoed-blue-01;
+$base-button-color: #f7f7f7 !default;
