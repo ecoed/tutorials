@@ -24,4 +24,4 @@ This website provides online walk-through tutorials for each of the _ecoEd_ modu
 
 Each module also includes ready-to-go lecture slides and teacher background information, which can be downloaded on the [_ecoEd_ website](https://www.ecoed.org.au/materials).
 
-![](modules/images/ecoed-partners2.png)
+![](modules/images/ecoed-partners.png)
