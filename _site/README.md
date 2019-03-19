@@ -1,4 +1,4 @@
-# ecoEd tutorials
+# _ecoEd_ Tutorials
 
 Online tutorials for ecoEd modules.
 

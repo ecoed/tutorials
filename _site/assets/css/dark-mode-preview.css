@@ -859,22 +859,22 @@ li .highlight {
 .btn {
   display: inline-block;
   box-sizing: border-box;
-  padding-top: 0.3em;
-  padding-right: 1em;
-  padding-bottom: 0.3em;
-  padding-left: 1em;
+  padding-top: 0.2em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
   margin: 0;
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
   line-height: 1.5;
-  color: #2c84fa;
+  color: #264caf;
   text-decoration: none;
   vertical-align: baseline;
   cursor: pointer;
   background-color: #302d36;
   border-width: 0;
-  border-radius: 3px;
+  border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   appearance: none; }
   .btn:focus {
@@ -884,7 +884,7 @@ li .highlight {
   .btn:focus:hover, .btn.selected:focus {
     box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.25); }
   .btn:hover, .btn.zeroclipboard-is-hover {
-    color: #227efa; }
+    color: #2448a7; }
   .btn:hover, .btn:active, .btn.zeroclipboard-is-hover, .btn.zeroclipboard-is-active {
     text-decoration: none;
     background-color: #2e2b33; }

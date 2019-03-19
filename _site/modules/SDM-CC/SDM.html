@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   
 
-  <title>Thing 4 - Data management plans - ecoEd Tutorials</title>
+  <title>SDM design - ecoEd Tutorials</title>
   <link rel="stylesheet" href="http://localhost:4000/tutorials/assets/css/just-the-docs.css">
 
   
@@ -68,7 +68,7 @@
     
       
         
-          <li class="navigation-list-item active">
+          <li class="navigation-list-item">
             
             <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/10-Eco-Data-Things.html" class="navigation-list-link">10 Eco Data Things</a>
             
@@ -114,9 +114,9 @@
                   
                 
                   
-                    <li class="navigation-list-item  active">
+                    <li class="navigation-list-item ">
                       
-                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-4.html" class="navigation-list-link active">Thing 4 - Data management plans</a>
+                      <a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/Thing-4.html" class="navigation-list-link">Thing 4 - Data management plans</a>
                       
                     </li>
                   
@@ -199,7 +199,7 @@
     
       
         
-          <li class="navigation-list-item">
+          <li class="navigation-list-item active">
             
             <a href="http://localhost:4000/tutorials/modules/SDM-CC/SDM-Climate-Change.html" class="navigation-list-link">SDM and Climate Change</a>
             
@@ -223,9 +223,9 @@
                   
                 
                   
-                    <li class="navigation-list-item ">
+                    <li class="navigation-list-item  active">
                       
-                      <a href="http://localhost:4000/tutorials/modules/SDM-CC/SDM.html" class="navigation-list-link">SDM design</a>
+                      <a href="http://localhost:4000/tutorials/modules/SDM-CC/SDM.html" class="navigation-list-link active">SDM design</a>
                       
                     </li>
                   
@@ -327,53 +327,95 @@
             <nav class="breadcrumb-nav">
               <ol class="breadcrumb-nav-list">
                 
-                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/tutorials/modules/10-Eco-Data-Things/10-Eco-Data-Things.html">10 Eco Data Things</a></li>
+                  <li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/tutorials/modules/SDM-CC/SDM-Climate-Change.html">SDM and Climate Change</a></li>
                 
-                <li class="breadcrumb-nav-list-item"><span>Thing 4 - Data management plans</span></li>
+                <li class="breadcrumb-nav-list-item"><span>SDM design</span></li>
               </ol>
             </nav>
           
         
         <div id="main-content" class="page-content" role="main">
-          <h2 id="thing-4-data-management-plans">Thing 4: Data management plans</h2>
-<p>Some research institutions and research funders now require researchers to submit a Data Management Plan (DMP) for new projects. What is a DMP and what should it cover?</p>
+          <h2 id="running-a-species-distribution-model-in-the-bccvl">Running a Species Distribution Model in the BCCVL</h2>
 
-<h3 id="activity-1-an-introduction-to-data-management-plans">Activity 1: An introduction to Data Management Plans</h3>
-<p>A Data Management Plan (DMP) documents how data will be managed, stored and shared during and after a research project. It is an important part of the planning process for a project, and is very helpful when researchers reach later stages of the data lifecycle (see Thing 1, Activity 2).</p>
+<p>In this experiment you will learn to design an SDM to model the potential distribution of a species under current climate and/or environmental conditions. The results of an SDM experiment can later be used in a Climate Change Projection.</p>
 
-<ol>
-  <li>Start by scanning this short introduction to <a href="https://www.ands.org.au/working-with-data/data-management/data-management-plans">Data Management Plans</a>.</li>
-  <li>Check out Figure 1 (page 2) in the ANDS <a href="http://www.ands.org.au/__data/assets/pdf_file/0009/394056/research-data-management-in-practice.pdf">Research Data Management in Practice</a> report to see an overview of where DMPs fit into the bigger picture of data management.</li>
-  <li>Now browse through some public DMPs using the following links and open up one or two of the DMPs to see the type of information they capture:
-    <ul>
-      <li><a href="https://dmptool.org/public_plans">DMP Tool</a></li>
-      <li><a href="https://www.dataone.org/data-management-planning">DataOne</a></li>
-    </ul>
-  </li>
-  <li>Many Universities have their own guidelines about data management plans, explore one of these or find out if your Institution has one
-    <ul>
-      <li><a href="https://www.griffith.edu.au/library/research-publishing/best-practice-guidelines-for-researchers">Griffith University</a></li>
-      <li><a href="http://guides.library.uwa.edu.au/c.php?g=325196&amp;p=2178556">University of Western Australia</a></li>
-      <li><a href="https://guides.library.uq.edu.au/for-researchers/uq-research-data-manager/creating-a-dmp">University of Queensland</a></li>
-      <li>Australian National University</li>
-    </ul>
-  </li>
-</ol>
-
-<p><strong>Consider:</strong> You will have noticed that DMPs can be very short, or extremely long and complex. What do you think are the 2 or 3 pieces of information essential to include in every DMP and why that is?</p>
-
-<p><img src="images/RDM-steps.png" alt="" /></p>
-
-<h3 id="activity-2-data-management-plan-tools">Activity 2: Data Management Plan Tools</h3>
-<p>DMP tools enable researchers to create, review, and share data management plans that meet institutional and funder requirements. To make DMPs more useful and effective, these tools are being re-imagined in new ways.</p>
+<p>You should be logged into the BCCVL. If not, check the <a href="https://ecoed.github.io/tutorials/modules/SDM-CC/BCCVL.html">previous step</a>.</p>
 
 <ol>
-  <li>First have a look at the <a href="https://vimeo.com/82408192">DMPTool 90 sec video</a> to see what the DMPTool offers researchers and institutional data managers.</li>
-  <li>Then read <a href="https://blog.dmptool.org/category/roadmap-project/">this blog</a> about how the Digital Curation Centre UK (DCC) and University of California Curation Centre (UCCC) have joined forces to create a new tool, called DMPRoadmap.</li>
-  <li>Next browse the DMPRoadmap <a href="https://github.com/DMPRoadmap/roadmap/wiki">development wiki</a> on GitHub.</li>
+  <li>At the top of the page click on <button type="button" name="button" class="btn">Experiments</button></li>
+  <li>Under the PRIMARY EXPERIMENTS heading click <button type="button" name="button" class="btn">Species Distribution Modelling Experiment</button></li>
 </ol>
 
-<p><strong>Consider:</strong> The DMPRoadmap project is aiming to enable DMP’s to be active, dynamic, machine-readable and <a href="https://www.force11.org/group/fairgroup/fairprinciples">FAIR</a>. Can you think of any additional goals or further enhancements?</p>
+<p>This will open a page with a set of tabs that will guide you through designing your SDM. The steps below outline what to do on each of these tabs.</p>
+
+<h3 id="step-1-description-tab">Step 1: Description tab</h3>
+<ol>
+  <li>Enter the name for your experiment in the first box (e.g. Current distribution of Lantana (<em>Lantana camara</em>)).</li>
+  <li>(optional) You can also add a description of your experiment in the box below if you want to convey more information. Some researchers use this box to record their research question or hypotheses for later referral.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<h3 id="step-2-occurrences-tab">Step 2: Occurrences tab</h3>
+<ol>
+  <li>Click Select a Dataset.</li>
+  <li>Choose your species occurrence dataset and click Select.</li>
+  <li>To visualise these occurrence records, click on the green eye icon.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<p><img src="images/occurrences.png" alt="" /></p>
+
+<h3 id="step-3-absences-tab">Step 3: Absences tab</h3>
+<ol>
+  <li>Because we have no surveyed absence data available, we leave the selection to No under the question if you have true absence data for your experiment.</li>
+  <li>You can change the pseudo-absence generation settings (number of pseudo-absences and generation strategy) or the background generation settings (number of background points) for Maxent in the blue box. All algorithms in the experiment will use these settings unless you change it on the Algorithms tab.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<h3 id="step-4-climate-and-environmental-data-tab">Step 4: Climate and Environmental Data tab</h3>
+<ol>
+  <li>Click Select Available Datasets.
+Note: the first selection you will see on this page are so-called summary datasets. These are the most used datasets with aggregated layers over long-term periods. You can immediately select a dataset on the right, or untick the summary datasets box and search through all datasets.</li>
+  <li>On the left hand side, under ‘Collections’ select ‘Australia current and future climate data’</li>
+  <li>Find and select the dataset titled ‘Australia, current climate (1976-2005), 30arcsec (~1km)’</li>
+  <li>Click Select Layers.</li>
+  <li>Take a minute to review your species information (page 10-11).
+Which climate variables are most likely to have the greatest effect on your species?</li>
+  <li>Check the boxes next to your chosen climate variables.
+Tip: You are able to view this data by clicking on the green eye icon.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<h3 id="step-5-constraints-tab">Step 5: Constraints tab</h3>
+<ol>
+  <li>This tab lets you select the area in which to train your model. This means that only occurrence records from the constraint area are used, and pseudo-absence or background points are only generated in this area.</li>
+  <li>The default constraint area is the convex hull (minimum polygon) around all occurrence records of the selected species. This convex hull is shown as a blue outline on the map. You can generate a buffer around the convex hull by adding an offset. Other options are:
+    <ul>
+      <li>Selecting a pre-defined area, such as a state/territory, IBRA region or NRM region, with or without offset around the selected area. Note: these are Australian only.</li>
+      <li>Using the environmental envelope, which is the geographic extent of where all selected environmental/climate datasets overlap.</li>
+      <li>Draw your own polygon on the map.</li>
+      <li>Upload a shapefile.</li>
+    </ul>
+  </li>
+  <li>Note: in your results you will find two maps with the predicted distribution of your species, one with the projection only in the constraint area and one with the projection for the entire environmental envelope.</li>
+  <li>Leave this on the default convex hull.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<h3 id="step-6-algorithms-tab">Step 6: Algorithms tab</h3>
+<ol>
+  <li>The BCCVL allows users to run 17 algorithms at the click of a button, in the interest of time please select only 4 algorithms.
+Tip: Click on the ‘i’ icon for brief description of each algorithm.</li>
+  <li>(optional) On the right side you can change the configuration options of each algorithm. For all algorithms the pseudo-absence generation settings as set on the Absence tab will be used unless changed here.</li>
+  <li>Click <button type="button" name="button" class="btn">Next</button></li>
+</ol>
+
+<h3 id="step-7-run-tab">Step 7: Run tab</h3>
+<ol>
+  <li>If all tabs are green then your experiment is ready to go.</li>
+  <li>Click <button type="button" name="button" class="btn">Start Experiment</button></li>
+  <li>If any of your tabs are red, revisit it and ensure you have filled in each component correctly.</li>
+</ol>
 
 
           
