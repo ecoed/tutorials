@@ -11,7 +11,7 @@ Understand the importance of data licensing, learn about Creative Commons and se
 ### Activity 1: Why license research data?
 Consider this scenario: You’ve found a dataset you are interested in. You’ve downloaded it. Excellent! But do you know what you can and cannot do with the data? Alternatively, consider that you have published a dataset. How do you communicate to the secondary user what they can and cannot do with it? The answer lies in data licensing. Licensing is critical to enabling data to be reused and cited.
 
-1.	Start by reading this [brief introduction](https://www.ands.org.au/working-with-data/publishing-and-reusing-data/licensing-for-reuse) to licensing research data.
+1.	Start by reading this [brief introduction](https://www.ands.org.au/guides/research-data-rights-management) to licensing research data.
 2.	Now have a closer look at the [poster](http://creativecommons.org.au/content/LicencePoster_Sep20151.pdf) from creativecommons.org.  Click on the descriptions for more information. Notice they have used CC BY as the licensing information at the bottom of the poster so you know what you can do with the poster itself.
 3.	Check out the [data licensing policy](https://www.tern.org.au/rs/7/sites/998/user_uploads/File/Data%20Licensing%20Documents/TERN%20Data%20Licensing%20Policy%20v3_0.pdf) and [FAQ](https://www.tern.org.au/TERN-datalicensingfaq-pg26412.html) from TERN.
 4.	See what [ALA says about data licensing](https://www.ala.org.au/how-to-work-with-data/).

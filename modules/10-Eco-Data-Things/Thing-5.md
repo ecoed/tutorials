@@ -46,11 +46,11 @@ Controlled vocabularies significantly improve data discovery. It makes data more
 Some examples of vocabularies used in ecology are:
 1.	[Environmental Thesaurus](http://www.enveurope.eu/news/envthes-environmental-thesaurus)(EnvThes)
 2.	[Global Change Master Directory](https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords) (GCMD) Keywords
-3.	[Long Term Ecological Research](http://vocab.lternet.edu/vocab/vocab/index.php) (LTER)
+3.	[Long Term Ecological Research](http://vocab.lternet.edu/vocab/vocab/index.php) (LTER) - and see it visually represented [here](http://vocab.lternet.edu/visualvocabulary/lter/index.php)
 
 We are going to see some controlled vocabularies in action in the Atlas of Living Australia (ALA).
 
-1.	Do a search in the ALA search engine. Type “whale” in the search box and click on search. Choose one of the records listed and click on the (red text) View record link.  
+1.	Do a search in the [ALA search engine](https://www.ala.org.au/data-sets/). Type “frog” in the search box and click on search. Choose one of the records listed and click on the (red text) View record link.  
 2.	Any metadata field where you see Supplied... tells you that the information supplied by the person who submitted the record (often a 'citizen scientist') has been changed to the controlled vocabulary being used in metadata fields e.g. Observer, Record date and Common name.
 3.	Have a scroll down the record and consider how many of the metadata fields probably have a controlled vocabulary in use (e.g. taxonomy, geospatial etc.).
 
